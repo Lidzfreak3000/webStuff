@@ -18,7 +18,7 @@ $(document).ready(function()
 {
 	"use strict";
 
-	/* 
+	/*
 
 	1. Vars and Inits
 
@@ -49,7 +49,7 @@ $(document).ready(function()
 	initSelect();
 	initGoogleMap();
 
-	/* 
+	/*
 
 	2. Set Header
 
@@ -67,7 +67,7 @@ $(document).ready(function()
 		}
 	}
 
-	/* 
+	/*
 
 	3. Init Menu
 
@@ -99,7 +99,7 @@ $(document).ready(function()
 		});
 	}
 
-	/* 
+	/*
 
 	4. Init Date Picker
 
@@ -111,7 +111,7 @@ $(document).ready(function()
 		dp.datepicker();
 	}
 
-	/* 
+	/*
 
 	5. Init Select
 
@@ -133,7 +133,7 @@ $(document).ready(function()
 		}
 	}
 
-	/* 
+	/*
 
 	6. Init Google Map
 
@@ -141,8 +141,9 @@ $(document).ready(function()
 
 	function initGoogleMap()
 	{
-		var myLatlng = new google.maps.LatLng(34.063685,-118.272936);
-    	var mapOptions = 
+		var myLatlng = new google.maps.LatLng(28.966828,-81.236811);
+		var marker = new google.maps.Marker({position: myLatlng, animation:google.maps.Animation.BOUNCE});
+    	var mapOptions =
     	{
     		center: myLatlng,
 	       	zoom: 14,
@@ -154,10 +155,10 @@ $(document).ready(function()
 			{
 				position: google.maps.ControlPosition.RIGHT_CENTER
 			},
-			mapTypeControl: false,
-			scaleControl: false,
-			streetViewControl: false,
-			rotateControl: false,
+			mapTypeControl: true,
+			scaleControl: true,
+			streetViewControl: true,
+			rotateControl: true,
 			fullscreenControl: true,
 			styles:
 			[
@@ -185,6 +186,8 @@ $(document).ready(function()
 				map.setCenter(myLatlng);
 			}, 1400);
 		});
+		marker.setMap(map);
+
 	}
 
 });
