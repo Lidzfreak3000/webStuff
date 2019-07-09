@@ -277,7 +277,7 @@ section
 }
 .button_1
 {
-	background: #fd556d;
+	background: #6A4195;
 	border: solid 2px transparent;
 }
 .button_1 a
@@ -287,24 +287,24 @@ section
 .button_1:hover
 {
 	background: transparent;
-	border: solid 2px #fd556d;
+	border: solid 2px #6A4195;
 }
 .button_1:hover a
 {
-	color: #fd556d;
+	color: #6A4195;
 }
 .button_2
 {
 	background: transparent;
-	border: solid 2px #57ccc3;
+	border: solid 2px #800080;
 }
 .button_2 a
 {
-	color: #57ccc3;
+	color: #800080;
 }
 .button_2:hover
 {
-	background: #57ccc3;
+	background: #800080;
 }
 .button_2:hover a
 {
@@ -385,7 +385,7 @@ section
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	color: #57ccc3;
+	color: #8f388f;
 }
 .main_nav ul li:not(:last-child)
 {
@@ -403,7 +403,7 @@ section
 {
 	height: 46px;
 	border-radius: 20px;
-	background: #57ccc3;
+	background: #8f388f;
 	padding-left: 40px;
 	padding-right: 36px;
 	line-height: 46px;
@@ -434,7 +434,7 @@ section
 }
 .social ul li:hover
 {
-	background: #57ccc3;
+	background: #8f388f;
 }
 .social ul li:hover a i
 {
@@ -499,7 +499,7 @@ section
 	right: -350px;
 	width: 350px;
 	height: 100vh;
-	background: #57ccc3;
+	background: #800080;
 	z-index: 102;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -659,7 +659,7 @@ section
 .home_subtitle
 {
 	font-size: 30px;
-	color: #57ccc3;
+	color: #800080;
 	font-weight: 600;
 	line-height: 1.1;
 }
@@ -701,7 +701,7 @@ section
 .home_slider_custom_dot.active,
 .home_slider_custom_dot:hover
 {
-	background: #57ccc3;
+	background: #800080;
 }
 .home_slider_custom_dot:not(:last-child)
 {
@@ -731,7 +731,7 @@ section
 {
 	font-size: 36px;
 	font-weight: 700;
-	color: #57ccc3;
+	color: #800080;
 	line-height: 0.75;
 }
 .milestone_text
@@ -759,7 +759,7 @@ section
 	left: 0;
 	width: 336px;
 	height: 80px;
-	background: #57ccc3;
+	background: #800080;
 	line-height: 80px;
 	text-align: center;
 	font-size: 24px;
@@ -817,7 +817,7 @@ section
 .intro_input:focus,
 .intro_input:hover
 {
-	border: solid 2px #57ccc3;
+	border: solid 2px #800080;
 }
 .intro_input::-webkit-input-placeholder
 {
@@ -867,8 +867,8 @@ section
 .intro_button:hover
 {
 	background: transparent;
-	border: solid 2px #fd556d;
-	color: #fd556d;
+	border: solid 2px #6A4195;
+	color: #6A4195;
 }
 
 /*********************************
@@ -949,7 +949,7 @@ section
 .cta
 {
 	width: 100%;
-	background: #fd556d;
+	background: #6A4195;
 	padding-top: 49px;
 	padding-bottom: 46px;
 }
@@ -978,7 +978,7 @@ section
 	font-size: 30px;
 	font-weight: 600;
 	color: #fff;
-	background: #ee4860;
+	background: #6A4195;
 	border-radius: 19px;
 	white-space: nowrap;
 }
@@ -1149,7 +1149,7 @@ section
 	width: 167px;
 	height: 46px;
 	border-radius: 19px;
-	background: #fd556d;
+	background: #6A4195;
 	cursor: pointer;
 	border: none;
 	outline: none;
@@ -1187,7 +1187,7 @@ section
 }
 .footer_logo a > div:first-child span
 {
-	color: #57ccc3;
+	color: #800080;
 	margin-left: 7px;
 }
 .footer_logo a > div:last-child
@@ -1252,7 +1252,7 @@ section
 {
 	font-size: 15px;
 	font-weight: 500;
-	color: #57ccc3;
+	color: #800080;
 }
 .location_text
 {
@@ -1307,5 +1307,5 @@ section
 }
 .footer_nav ul li a:hover
 {
-	color: #57ccc3;
+	color: #800080;
 }
